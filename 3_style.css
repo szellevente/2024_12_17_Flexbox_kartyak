@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #389b40;
+
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: row;
+    width: 100%;
+    gap:50px;
+    
+}
+
+.card{
+    width: 500px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.card :hover {
+    transform: scale(1.1); 
+  }
+
+  .navbar-links li{
+    display: inline;
+  }
+    
+.navbar-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+
